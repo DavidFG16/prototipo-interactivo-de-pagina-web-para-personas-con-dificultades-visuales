@@ -105,32 +105,113 @@ header .bg_mode{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  main{
     grid-area: main;
+    display: flex;
+    flex-direction: column;
  }
+
+ main .intro{
+     display: flex;
+     padding: 39px 104px 0 100px;
+     gap: 46px;
+     position:relative;
+     justify-content: space-between;
+ }
+
+ main .intro .logo_content{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    align-items: center;
+ }
+
+ main .intro .logo_content img{
+    object-fit: cover;
+ }
+
+ main .intro .logo_content p{
+    color:var(--color-1);
+ }
+
+
+ main .intro .logo_content p:nth-child(2){
+    font-family: "RobotoCondensed-Regular";
+    font-size: 56.4px;
+    margin-top: 13px;
+ }
+
+ main .intro .logo_content p:nth-child(3){
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    width: 685px;
+ }
+
+ .dog_cards_content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+ }
+ .dog_cards_content img{
+    object-fit: cover;
+ }
+
+ .dog_cards_content a{
+    display: flex;
+    padding: 3px 28px;
+    align-items: center;
+    justify-content: center;
+    font-family: "RobotoCondensed-Bold";
+    background-color: var(--color-1);
+    border-radius: 31.5px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color-2);
+ }
+
+ .social_logos{
+    display: flex;
+    flex-direction: column;
+    gap: 10.5px;
+    position: absolute;
+    bottom:49px;
+    right: 38px;
+ }
+
+ .social_logos img{
+    object-fit: cover;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  footer{
     grid-area: footer;
