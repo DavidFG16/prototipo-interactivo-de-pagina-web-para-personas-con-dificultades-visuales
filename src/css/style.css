@@ -312,8 +312,64 @@ header .bg_mode{
     width: 282px;
 }
 
+.about{
+    padding: 170px 140px 0 142px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .info_about{
+    display: flex;
+    flex-direction: column;
+    width: 717px;
+}
+.about .info_about h2{
+    font-family:"RobotoCondensed-Bold";
+    font-size: 72px;
+    color: var(--color-1);
+}
 
 
+
+.about .info_about p{
+    font-family:"RobotoCondensed-Regular";
+    font-size: 36px;
+    color: var(--color-1);  
+    line-height: 44px;
+    line-height: 40px;
+}
+
+.about .info_about p:nth-child(2){
+    margin-top: 69px;
+}
+
+.about .info_about p:nth-child(4){
+    margin-top: 30px;
+    width: 746px;
+}
+
+.blind_logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 90px;
+    justify-content: center;
+}
+
+.blind_logo a{
+    display: flex;
+     color: var(--color-1);
+     font-family: "RobotoCondensed-Regular";
+     font-size: 96px;
+     text-decoration: none;
+     align-items: center;
+     justify-content: center;
+}
+
+.blind_logo a img{
+    width: 82px;
+    height: 80px;
+}
 
 
 
