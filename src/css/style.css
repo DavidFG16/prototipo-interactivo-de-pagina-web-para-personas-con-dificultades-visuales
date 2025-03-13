@@ -371,6 +371,26 @@ header .bg_mode{
     height: 80px;
 }
 
+footer{
+    bottom: 0;
+    background-color: var(--color-1);
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+}
+
+footer p{
+    align-items: center;
+    justify-content: center;
+    font-family:"RobotoCondensed-Regular";
+    font-size: 24px;
+    padding:0 50px;
+}
+
+footer p:nth-child(2){
+    color:var(--color-7);
+}
 
 
 
